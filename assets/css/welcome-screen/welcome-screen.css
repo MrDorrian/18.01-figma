@@ -1,0 +1,48 @@
+.welcome-screen {
+  position: relative;
+}
+
+.welcome-image {
+  display: none;
+}
+
+.welcome-info {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.main-heading {
+  font-size: 5em;
+  line-height: 1.3em;
+  color: var(--text-color-white);
+  font-weight: bold;
+}
+
+.second-heading {
+  font-weight: bold;
+  font-size: 2em;
+  color: var(--text-color-white);
+  padding: 35px 0;
+}
+
+.welcome-btn-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (min-width: 992px) {
+  .welcome-image-wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+  .welcome-image {
+    display: block;
+    position: absolute;
+    width: inherit;
+    height: 130%;
+    z-index: -5;
+    object-fit: cover;
+    object-position: center;
+  }
+}

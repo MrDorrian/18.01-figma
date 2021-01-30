@@ -1,0 +1,55 @@
+.app-download {
+  position: relative;
+}
+
+.app-download-image {
+  display: none;
+}
+
+.app-download-info {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.app-download-btn-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.app-download-heading {
+  color: var(--color-white);
+  font-size: 3em;
+}
+
+.app-download-btn {
+  display: block;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 25px 50px;
+  color: var(--text-color-white);
+  font-size: 1.8em;
+  font-weight: bold;
+}
+.app-download-btn + .app-download-btn {
+  margin-left: 20px;
+}
+@media screen and (min-width: 992px) {
+  .app-download-wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+  .app-download-image {
+    display: block;
+    position: absolute;
+    width: inherit;
+    height: 140%;
+    z-index: -5;
+    object-fit: cover;
+    object-position: center;
+  }
+  .app-download-info {
+    text-align: center;
+    padding-top: 130px;
+  }
+}

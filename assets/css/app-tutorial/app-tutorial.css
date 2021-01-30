@@ -1,0 +1,34 @@
+.app-tutorial {
+  display: flex;
+}
+
+.app-prewie-block {
+
+}
+
+.tutorial-name {
+  color: #fa4a0c;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.tutorial-description {
+  font-weight: bold;
+  font-size: 3em;
+  line-height: 1.3em;
+  margin: 35px 0;
+}
+
+.app-prewie-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tutorial-sub-text {
+  font-size: 1.8em;
+  color: grey;
+}
+
+.tutorial-info {
+}

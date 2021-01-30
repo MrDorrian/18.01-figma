@@ -1,0 +1,18 @@
+.app-prewie-block {
+  display: flex;
+  justify-content: center;
+}
+.app-image-left {
+  z-index: 4;
+  margin: -130px -240px 0 0;
+}
+.app-image-right {
+  z-index: 3;
+  margin: 0 190px 0 0;
+}
+.app-preview-after-line {
+  height: 3px;
+  width: 100%;
+  background-color: lightgrey;
+  margin-bottom: 50px;
+}

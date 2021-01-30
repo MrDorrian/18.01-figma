@@ -1,0 +1,14 @@
+.footer {
+  margin-top: 180px;
+  
+}
+
+.foter-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-copywright,.footer-social {
+  margin-top: 40px;
+}
