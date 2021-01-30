@@ -1,9 +1,14 @@
-.app-tutorial {
+.app-tutorial-name {
   display: flex;
+  justify-content: center;
+}
+.app-tutorial-name-heading {
+  font-size: 3em;
+  font-weight: bold;
 }
 
-.app-prewie-block {
-
+.app-tutorial {
+  display: flex;
 }
 
 .tutorial-name {
